@@ -1,12 +1,20 @@
 # React Router Concept-Wise
 
-A clean, standalone learning repository explaining modern **React Router** concepts in isolation.
-
-Each branch in this repository demonstrates **one single concept** with zero project bloat, minimal code, and targeted comments.
+A clean, standalone learning repository explaining modern **React Router** concepts in isolation, plus a unified project branch tying them all together!
 
 ---
 
-## 📚 Concepts & Branches Index
+## 🌟 Complete Project Branch
+
+| Project Branch | Key Features | Direct Link |
+|---|---|---|
+| **[`complete-project`](https://github.com/FrontendWebMisc/ReactRouterConceptWise/tree/complete-project)** | **CourseHub**: Combines all 10 concepts into one cohesive, simple application with zero bloat. | [View Project Branch](https://github.com/FrontendWebMisc/ReactRouterConceptWise/tree/complete-project) |
+
+---
+
+## 📚 Isolated Concept Branches Index
+
+Each concept below is isolated on its own branch with minimal code and targeted comments:
 
 | # | Concept | Branch Name | Key React Router APIs | Description |
 |---|---|---|---|---|
@@ -32,14 +40,13 @@ cd ReactRouterConceptWise
 npm install
 ```
 
-### 2. Switch to any concept branch to learn and test it
+### 2. Switch to any branch to learn and test it
 ```bash
-git checkout <branch-name>
+# To run the complete unified project:
+git checkout complete-project
 npm run dev
-```
 
-For example, to explore **Protected Routes**:
-```bash
-git checkout protected-routes
+# Or explore any individual concept:
+git checkout outlet
 npm run dev
 ```
